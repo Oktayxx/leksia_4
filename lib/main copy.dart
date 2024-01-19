@@ -14,11 +14,6 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(appBar:AppBar(backgroundColor: Colors.green,),
-      body: Container(color: Colors.purple, height: 200, width: 100,
-      child: Text ("jjjj")),)
-    );
+      home: Text("Hello"), );
+  }
  }
-}
-
-
